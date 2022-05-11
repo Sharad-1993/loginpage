@@ -12,7 +12,7 @@ public class loginsaucedemo {
           @Test
          public void login() 
          {
-	    	 System.setProperty("webdriver.chrome.driver","D:\\New folder\\myproject\\binary\\chromedriver.exe");
+	    	 System.setProperty("webdriver.chrome.driver","/myproject/binary/chromedriver.exe");
 	         WebDriver driver=new ChromeDriver();
 	    	 driver.get("https://www.saucedemo.com/");
 	    	 WebElement username=driver.findElement(By.xpath("//input[@id='user-name']"));
